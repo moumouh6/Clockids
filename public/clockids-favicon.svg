@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3B7BEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ferris-wheel">
+  <circle cx="12" cy="12" r="2"/>
+  <path d="M12 2v4"/>
+  <path d="m6.8 15-3.5 2"/>
+  <path d="m20.7 7-3.5 2"/>
+  <path d="M6.8 9 3.3 7"/>
+  <path d="m20.7 17-3.5-2"/>
+  <path d="m9 22 3-8 3 8"/>
+  <path d="M8 22h8"/>
+  <path d="M18 9a6 6 0 0 0-12 0"/>
+  <path d="M15.5 15a6 6 0 0 1-7 0"/>
+</svg>
