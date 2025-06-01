@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Gamepad2, Car, Waves, Flower, Flame, Droplets, Star, ArrowRight } from 'lucide-react';
+import { Star, ArrowRight } from 'lucide-react';
 import Hero from '../components/Hero';
 import { activities } from '../data/activities';
 import { services } from '../data/services';

@@ -3,14 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
-import { isRTL } from '../i18n';
+
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
   const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const rtl = isRTL();
+
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -44,25 +44,19 @@ const Header: React.FC = () => {
 
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="/" className="nav-link">
-              {t('home')}
+              {t('accueil')}
             </Link>
             <Link to="/activities" className="nav-link">
-              {t('activities')}
+              {t('activités')}
             </Link>
             <Link to="/spa-pool" className="nav-link">
-              {t('spa_pool')}
+              {t('spa_piscine')}
             </Link>
             <Link to="/delivery" className="nav-link">
-              {t('delivery')}
+              {t('livraison')}
             </Link>
             <Link to="/school-trips" className="nav-link">
-              {t('school_trips')}
-            </Link>
-            <Link to="/customer-area" className="nav-link">
-              {t('customer_area')}
-            </Link>
-            <Link to="/ramadan" className="nav-link">
-              {t('ramadan')}
+              {t('voyage_scolaire')}
             </Link>
             <Link to="/contact" className="nav-link">
               {t('contact')}
@@ -89,25 +83,19 @@ const Header: React.FC = () => {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex flex-col space-y-4">
             <Link to="/" className="nav-link py-2">
-              {t('home')}
+              {t('accueil')}
             </Link>
             <Link to="/activities" className="nav-link py-2">
-              {t('activities')}
+              {t('activités')}
             </Link>
             <Link to="/spa-pool" className="nav-link py-2">
-              {t('spa_pool')}
+              {t('spa_piscine')}
             </Link>
             <Link to="/delivery" className="nav-link py-2">
-              {t('delivery')}
+              {t('livraison')}
             </Link>
             <Link to="/school-trips" className="nav-link py-2">
-              {t('school_trips')}
-            </Link>
-            <Link to="/customer-area" className="nav-link py-2">
-              {t('customer_area')}
-            </Link>
-            <Link to="/ramadan" className="nav-link py-2">
-              {t('ramadan')}
+              {t('voyage_scolaire')}
             </Link>
             <Link to="/contact" className="nav-link py-2">
               {t('contact')}

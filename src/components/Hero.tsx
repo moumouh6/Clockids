@@ -11,8 +11,8 @@ const Hero: React.FC = () => {
     <section className="relative h-screen flex items-center overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-hero-pattern bg-cover bg-center"
-        style={{ filter: 'brightness(0.7)' }}
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: 'url(/background.jpg)', filter: 'brightness(0.5)' }}
       />
       
       {/* Content */}
