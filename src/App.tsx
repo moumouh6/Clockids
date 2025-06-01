@@ -11,9 +11,9 @@ import ContactPage from './pages/ContactPage';
 import BookingPage from './pages/BookingPage';
 import DeliveryPage from './pages/DeliveryPage';
 import SchoolTripsPage from './pages/SchoolTripsPage';
-import CustomerAreaPage from './pages/CustomerAreaPage';
+import CustomerAreaPage from './pages/CustomerAreaPage.tsx';
 import SpaPoolPage from './pages/SpaPoolPage';
-import RamadanPage from './pages/RamadanPage';
+import RamadanPage from './pages/RamadanPage.tsx';
 import { setLanguageDirection } from './i18n';
 
 function App() {
