@@ -9,16 +9,19 @@ import GalleryPage from './pages/GalleryPage';
 import PricingPage from './pages/PricingPage';
 import ContactPage from './pages/ContactPage';
 import BookingPage from './pages/BookingPage';
+import DeliveryPage from './pages/DeliveryPage';
+import SchoolTripsPage from './pages/SchoolTripsPage';
+import CustomerAreaPage from './pages/CustomerAreaPage';
+import SpaPoolPage from './pages/SpaPoolPage';
+import RamadanPage from './pages/RamadanPage';
 import { setLanguageDirection } from './i18n';
 
 function App() {
   const { i18n } = useTranslation();
 
   useEffect(() => {
-    // Set initial language direction
     setLanguageDirection(i18n.language);
     
-    // Update on language change
     const handleLanguageChange = () => {
       setLanguageDirection(i18n.language);
     };
@@ -41,6 +44,11 @@ function App() {
           <Route path="/prices" element={<PricingPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/book" element={<BookingPage />} />
+          <Route path="/delivery" element={<DeliveryPage />} />
+          <Route path="/school-trips" element={<SchoolTripsPage />} />
+          <Route path="/customer-area" element={<CustomerAreaPage />} />
+          <Route path="/spa-pool" element={<SpaPoolPage />} />
+          <Route path="/ramadan" element={<RamadanPage />} />
         </Routes>
       </PageLayout>
     </Router>

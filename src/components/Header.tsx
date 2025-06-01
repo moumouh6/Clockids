@@ -29,7 +29,6 @@ const Header: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    // Close mobile menu when route changes
     setIsMenuOpen(false);
   }, [location]);
 
@@ -43,7 +42,6 @@ const Header: React.FC = () => {
             </span>
           </Link>
 
-          {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="/" className="nav-link">
               {t('home')}
@@ -51,14 +49,20 @@ const Header: React.FC = () => {
             <Link to="/activities" className="nav-link">
               {t('activities')}
             </Link>
-            <Link to="/services" className="nav-link">
-              {t('services')}
+            <Link to="/spa-pool" className="nav-link">
+              {t('spa_pool')}
             </Link>
-            <Link to="/gallery" className="nav-link">
-              {t('gallery')}
+            <Link to="/delivery" className="nav-link">
+              {t('delivery')}
             </Link>
-            <Link to="/prices" className="nav-link">
-              {t('prices')}
+            <Link to="/school-trips" className="nav-link">
+              {t('school_trips')}
+            </Link>
+            <Link to="/customer-area" className="nav-link">
+              {t('customer_area')}
+            </Link>
+            <Link to="/ramadan" className="nav-link">
+              {t('ramadan')}
             </Link>
             <Link to="/contact" className="nav-link">
               {t('contact')}
@@ -72,7 +76,6 @@ const Header: React.FC = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center space-x-4">
             <LanguageSwitcher />
             <button onClick={toggleMenu} className="text-gray-800 focus:outline-none">
@@ -82,7 +85,6 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${isMenuOpen ? 'max-h-screen bg-white' : 'max-h-0'}`}>
         <div className="container mx-auto px-4 py-4">
           <nav className="flex flex-col space-y-4">
@@ -92,14 +94,20 @@ const Header: React.FC = () => {
             <Link to="/activities" className="nav-link py-2">
               {t('activities')}
             </Link>
-            <Link to="/services" className="nav-link py-2">
-              {t('services')}
+            <Link to="/spa-pool" className="nav-link py-2">
+              {t('spa_pool')}
             </Link>
-            <Link to="/gallery" className="nav-link py-2">
-              {t('gallery')}
+            <Link to="/delivery" className="nav-link py-2">
+              {t('delivery')}
             </Link>
-            <Link to="/prices" className="nav-link py-2">
-              {t('prices')}
+            <Link to="/school-trips" className="nav-link py-2">
+              {t('school_trips')}
+            </Link>
+            <Link to="/customer-area" className="nav-link py-2">
+              {t('customer_area')}
+            </Link>
+            <Link to="/ramadan" className="nav-link py-2">
+              {t('ramadan')}
             </Link>
             <Link to="/contact" className="nav-link py-2">
               {t('contact')}
@@ -112,6 +120,6 @@ const Header: React.FC = () => {
       </div>
     </header>
   );
-};
+}
 
 export default Header;
