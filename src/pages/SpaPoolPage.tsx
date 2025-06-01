@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Pool, Waves, Thermometer, Clock, Phone } from 'lucide-react';
+import { School as Pool, Waves, Thermometer, Clock, Phone } from 'lucide-react';
 
 const SpaPoolPage: React.FC = () => {
   const { t } = useTranslation();
