@@ -49,8 +49,8 @@ export const resources = {
       // Info
       "info_title": "Practical Information",
       "info_hours": "Opening Hours",
-      "info_weekdays": "Weekdays: 10:00 - 20:00",
-      "info_weekends": "Weekends: 09:00 - 22:00",
+      "info_weekdays": "Weekdays: 12:00 - 23:45",
+      "info_weekends": "Weekends: 14:00 - 23:45",
       "info_prices": "Prices",
       "info_entry": "Entry: 500 DA / person",
       "info_special": "Special Promotion: 12 games for 1000 DA",
@@ -141,8 +141,8 @@ export const resources = {
       // Info
       "info_title": "Informations Pratiques",
       "info_hours": "Heures d'Ouverture",
-      "info_weekdays": "Semaine: 10h00 - 20h00",
-      "info_weekends": "Week-ends: 09h00 - 22h00",
+      "info_weekdays": "Semaine: 12h00 - 23h45",
+      "info_weekends": "Week-ends: 14h00 - 23h45",
       "info_prices": "Tarifs",
       "info_entry": "Entrée: 500 DA / personne",
       "info_special": "Promotion Spéciale: 12 jeux pour 1000 DA",
@@ -233,8 +233,8 @@ export const resources = {
       // Info
       "info_title": "معلومات عملية",
       "info_hours": "ساعات العمل",
-      "info_weekdays": "أيام الأسبوع: 10:00 - 20:00",
-      "info_weekends": "عطلة نهاية الأسبوع: 09:00 - 22:00",
+      "info_weekdays": "أيام الأسبوع: 12:00 - 23:45",
+      "info_weekends": "عطلة نهاية الأسبوع: 14:00 - 23:45",
       "info_prices": "الأسعار",
       "info_entry": "الدخول: 500 دج / شخص",
       "info_special": "عرض خاص: 12 لعبة بـ 1000 دج",

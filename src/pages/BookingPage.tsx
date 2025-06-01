@@ -155,8 +155,6 @@ const BookingPage: React.FC = () => {
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                 >
                   <option value="">Select time</option>
-                  <option value="10:00">10:00</option>
-                  <option value="11:00">11:00</option>
                   <option value="12:00">12:00</option>
                   <option value="13:00">13:00</option>
                   <option value="14:00">14:00</option>
@@ -165,6 +163,10 @@ const BookingPage: React.FC = () => {
                   <option value="17:00">17:00</option>
                   <option value="18:00">18:00</option>
                   <option value="19:00">19:00</option>
+                  <option value="20:00">20:00</option>
+                  <option value="21:00">21:00</option>
+                  <option value="22:00">22:00</option>
+                  <option value="23:00">23:00</option>
                 </select>
               </div>
               

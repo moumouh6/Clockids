@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { MapPin, Phone, Mail, Facebook, Instagram } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
 import { ContactFormData } from '../types';
 
 const ContactPage: React.FC = () => {
@@ -67,7 +67,7 @@ const ContactPage: React.FC = () => {
                   <Phone className="text-primary-500 mr-4 flex-shrink-0 mt-1" size={24} />
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">{t('info_phone')}</h3>
-                    <p className="text-gray-600">+213 55 555 5555</p>
+                    <p className="text-gray-600">+213 555 505 505</p>
                   </div>
                 </div>
                 
@@ -75,7 +75,7 @@ const ContactPage: React.FC = () => {
                   <Mail className="text-primary-500 mr-4 flex-shrink-0 mt-1" size={24} />
                   <div>
                     <h3 className="font-bold text-gray-800 mb-1">{t('info_email')}</h3>
-                    <p className="text-gray-600">info@clockidspalace.com</p>
+                    <p className="text-gray-600">Info@clockids.com</p>
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const ContactPage: React.FC = () => {
               
               <div className="flex space-x-4">
                 <a 
-                  href="https://facebook.com" 
+                  href="https://www.facebook.com/ClocKidsPalace/?locale=fr_FR" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-colors"
@@ -95,13 +95,22 @@ const ContactPage: React.FC = () => {
                   <Facebook size={24} />
                 </a>
                 <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/clockidsspa/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 text-white p-3 rounded-full hover:opacity-90 transition-opacity"
                   aria-label="Instagram"
                 >
                   <Instagram size={24} />
+                </a>
+                <a 
+                  href="https://youtube.com/@clockids?si=Ou_CiZ5efjd4ai9d" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-red-600 text-white p-3 rounded-full hover:bg-red-700 transition-colors"
+                  aria-label="Youtube"
+                >
+                  <Youtube size={24} />
                 </a>
               </div>
               

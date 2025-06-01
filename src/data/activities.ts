@@ -9,13 +9,6 @@ export const activities: Activity[] = [
     image: 'https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   {
-    id: 'karting',
-    translateKey: 'activity_karting',
-    descriptionKey: 'activity_karting_desc',
-    icon: 'Car',
-    image: 'https://images.pexels.com/photos/12634028/pexels-photo-12634028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-  },
-  {
     id: 'pool',
     translateKey: 'activity_pool',
     descriptionKey: 'activity_pool_desc',

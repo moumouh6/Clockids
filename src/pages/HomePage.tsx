@@ -154,7 +154,7 @@ const HomePage: React.FC = () => {
               <h3 className="text-xl font-bold mb-4 text-primary-500">{t('info_address')}</h3>
               <p className="mb-2">{t('info_location')}</p>
               <a 
-                href="https://maps.google.com" 
+                href="https://maps.app.goo.gl/oAJBvgYud2aNywVp8" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-block mt-2 text-primary-500 hover:underline"
